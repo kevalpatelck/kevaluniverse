@@ -87,7 +87,7 @@ const OrbitPath = ({ distance }) => {
 const SolarSystem = () => {
   return (
     <Canvas style={{background:"black"}} camera={{ position: [0, 20, 50] }}>
-      <Stars radius={500} depth={100} count={3000} factor={10} fade />
+     <Stars radius={300} depth={100} count={5000} factor={10} fade />
       <OrbitControls enableZoom enablePan enableRotate />
       <ambientLight intensity={0.3} />
       <directionalLight position={[5, 5, 5]} intensity={2} />
